@@ -715,6 +715,75 @@ section {
     margin-bottom: 0.3rem;
 }
 
+/* Publications Section */
+.publications {
+    background: var(--bg-color);
+}
+
+.publications-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.publication-item {
+    padding: 2rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.publication-item:first-child {
+    padding-top: 0;
+}
+
+.publication-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.publication-title {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.publication-meta {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.publication-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 999px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s, color 0.3s, background 0.3s;
+}
+
+.publication-link:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background: rgba(37, 99, 235, 0.05);
+}
+
+.publication-link i {
+    font-size: 0.75rem;
+}
+
+.publication-abstract {
+    color: var(--text-light);
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
 /* Resume Section */
 .resume {
     background: var(--bg-light);

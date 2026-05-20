@@ -71,7 +71,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe elements for animation
 const initPageAnimations = () => {
-    const animateElements = document.querySelectorAll('.project-card, .skill-item');
+    const animateElements = document.querySelectorAll('.project-card, .skill-item, .publication-item');
     animateElements.forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
